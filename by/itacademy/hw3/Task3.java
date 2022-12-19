@@ -28,8 +28,6 @@ public class Task3 {
                     System.out.println("пятница");
                     break;
                 case 6:
-                    System.out.println("выходной");
-                    break;
                 case 7:
                     System.out.println("выходной");
                     break;

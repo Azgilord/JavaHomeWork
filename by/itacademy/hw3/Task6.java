@@ -11,12 +11,10 @@ public class Task6 {
         int storona3 = sc.nextInt();
         if (storona1 <= 0 || storona2 <= 0 || storona3 <= 0) {
             System.out.println("стороны введены некоректно");
-        } else {
-            if ((storona1 < (storona2 + storona3)) && (storona2 < (storona1 + storona3) && (storona3 < (storona2 + storona1)))) {
+        } else if ((storona1 < (storona2 + storona3)) && (storona2 < (storona1 + storona3) && (storona3 < (storona2 + storona1)))) {
                 System.out.println("такой треугольник существует");
             } else {
                 System.out.println("такого треугольника нет");
             }
         }
     }
-}

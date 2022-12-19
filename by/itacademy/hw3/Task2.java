@@ -9,10 +9,8 @@ public class Task2 {
         int a = sc.nextInt();
         if ((a % 2 != 0) && (a > 0)) {
             System.out.println("нечетное положительное");
-        } else {
-            if (((a % 2 == 0) && (a < 0))) {
+        } else if (((a % 2 == 0) && (a < 0))) {
                 System.out.println("четное  отрицательное");
             }
         }
     }
-}
